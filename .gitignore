@@ -1,0 +1,11 @@
+*.log
+*.cache
+*.sqlite
+*.sqlite-*
+*.jsonlz4
+*.mozlz4
+.DS_Store
+*~
+\#*\#
+.directory
+

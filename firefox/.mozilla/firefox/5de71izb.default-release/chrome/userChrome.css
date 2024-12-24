@@ -1,0 +1,104 @@
+/* Firefox Vintage Tech Theme */
+
+:root {
+  --cream: #F5F1E6;
+  --cream-dark: #E5E1D6;
+  --off-white: #EEEBE6;
+  --blue: #0057B8;
+  --blue-muted: #446891;
+  --red: #FF0000;
+  --red-muted: #CC3333;
+  --dark-navy: #1C2541;
+  --gray: #4C515C;
+  --gray-light: #697187;
+}
+
+/* Main window */
+#main-window {
+  background-color: var(--cream) !important;
+  color: var(--dark-navy) !important;
+}
+
+/* Toolbar and navigation */
+#nav-bar {
+  background-color: var(--cream-dark) !important;
+  border-bottom: 1px solid var(--gray-light) !important;
+}
+
+.tab-background {
+  background-color: var(--off-white) !important;
+  border: 1px solid var(--gray-light) !important;
+}
+
+.tab-background[selected="true"] {
+  background-color: var(--cream) !important;
+  border-bottom: none !important;
+}
+
+/* URL bar */
+#urlbar {
+  background-color: var(--off-white) !important;
+  color: var(--dark-navy) !important;
+  border: 1px solid var(--gray-light) !important;
+}
+
+#urlbar:hover {
+  background-color: var(--cream) !important;
+}
+
+/* Buttons and icons */
+.toolbarbutton-1 {
+  color: var(--blue) !important;
+}
+
+.toolbarbutton-1:hover {
+  background-color: var(--blue-muted) !important;
+  color: var(--cream) !important;
+}
+
+/* Bookmarks bar */
+#PersonalToolbar {
+  background-color: var(--cream-dark) !important;
+}
+
+/* Sidebar */
+#sidebar-box {
+  background-color: var(--cream-dark) !important;
+  border-right: 1px solid var(--gray-light) !important;
+}
+
+/* Context menus */
+.menu-iconic {
+  color: var(--dark-navy) !important;
+}
+
+menupopup {
+  background-color: var(--cream) !important;
+  border: 1px solid var(--gray-light) !important;
+}
+
+/* Scrollbars */
+scrollbar {
+  background-color: var(--cream-dark) !important;
+}
+
+scrollbar thumb {
+  background-color: var(--blue-muted) !important;
+}
+
+/* Error pages */
+.errorpage-container {
+  background-color: var(--cream) !important;
+  color: var(--red) !important;
+}
+
+/* Loading indicator */
+.tab-loading-burst {
+  background-color: var(--blue) !important;
+}
+
+/* Find bar */
+findbar {
+  background-color: var(--cream-dark) !important;
+  border-top: 1px solid var(--gray-light) !important;
+}

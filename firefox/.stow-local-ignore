@@ -1,0 +1,11 @@
+^lock$
+\.sqlite$
+\.sqlite-
+\.jsonlz4$
+\.cache$
+\.mozlz4$
+\.default$
+^Crash Reports
+^crashes$
+^sessionstore
+^Cache$
